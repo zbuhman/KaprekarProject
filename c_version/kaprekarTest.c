@@ -32,7 +32,7 @@ int main(int argc, char **argv) {
       if(contains(kaprekarNumbers, numKaprekarNumbers, i)) {
 	printf(stderr, "i = %d: is a known Kaprekar number, but the method returned false\n", i);
       } else {
-	fprintf(stderr, "i = %d: is known NOT to be a Kaprekar number, but the method returned true\n", i);
+	printf(stderr, "i = %d: is known NOT to be a Kaprekar number, but the method returned true\n", i);
       }
     } else {
       numCorrect++;
